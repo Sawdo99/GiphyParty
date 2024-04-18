@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+  <div class ="container">
+    <h1>Generate A Giphy!</h1>
+    <form id ="SearchInput">
+      <!-- The Search Bar -->
+      <input type="text" id="search" placeholder="Enter a Phrase"></input>
+      <!--The Submit button  -->
+      <input type="submit" id="submitButton" value="Search Giphy"> </input>
+      <!-- Delete Button -->
+      <button id="deleteButton">Delete</button>
+  </form>
+    <!-- Where the Gifs will desplay -->
+    <div id="giphyResponse" class="row"> 
+
+   </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>

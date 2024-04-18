@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #544E61;
+}
+
+div {
+    max-width: 500px;
+    margin: auto;
+    padding: 10PX;
+}
+
+h1 {
+    color:#CEEDDB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#search {
+    background-color: #CEEDDB;
+    border-radius: 5px;
+    border-color: #CEEDDB;
+    padding: 5px;
+}
+
+#submitButton {
+    background-color: #85BAA1;
+    border-radius: 5px;
+    border-color: #85BAA1;
+    padding: 5px;
+    color: #CEEDDB;
+}
+
+#deleteButton {
+    background-color: #ba3847;
+    border-radius: 5px;
+    border-color: #ba3847;
+    padding: 5px;
+    color: #CEEDDB;
+}
+
+
+  
